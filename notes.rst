@@ -34,11 +34,16 @@ Initial Homework
 
 Firstly the most obvious project to select nearly certainly going to be working on Zookeepr.
 
+Choosing your project
+Researching the project
+Learning to build and install the project
+Learning how to interact with the project developers
+Finding some way that you can contribute
+Working on your contribution
+Communicating with other project developers
 
 
-
-
-
+script for presentation
 
 
 Zookeepr
@@ -58,8 +63,8 @@ Is it part of a larger project?
 Does it have any corporate involvement?
 Is there any formal legal framework?
 Who makes decisions?
+
 'Cathedral' or 'Bazaar'?
- 
 Priests in a tower or a milling bazaar?
 
 What patch format is wanted?
@@ -68,3 +73,7 @@ How much explanation is wanted?
 Are tests and documentation expected?
 Is there a developer guide?
 What happened with other patches?
+
+
+
+
