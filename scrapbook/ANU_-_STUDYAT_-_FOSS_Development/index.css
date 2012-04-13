@@ -1,0 +1,42 @@
+/* ::::: http://styles.anu.edu.au/anu_global_styles.css ::::: */
+
+.headTitle { font-family: tahoma,sans-serif; font-size: 180%; line-height: 100%; font-weight: normal; color: rgb(255, 255, 255); border-bottom: 1px solid rgb(204, 204, 204); }
+.footer { font-family: verdana,arial,helvetica,sans-serif; font-size: x-small; font-weight: normal; color: rgb(0, 0, 0); padding: 4px 4px 4px 8px; }
+body { margin: 0px; font-family: verdana,arial,helvetica,sans-serif; font-size: x-small; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+tr { font-size: x-small; font-family: verdana,arial,helvetica,sans-serif; color: rgb(0, 0, 0); }
+td { font-size: 115%; font-family: verdana,arial,helvetica,sans-serif; color: rgb(0, 0, 0); }
+p { margin: 6px 6px 12px 0px; }
+h2, .h2 { font-family: arial,helvetica,sans-serif; font-size: medium; font-weight: bold; color: rgb(0, 0, 0); margin-top: 6px; margin-bottom: 6px; }
+a, a:link { color: rgb(0, 90, 221); }
+a:visited { color: rgb(0, 34, 102); }
+a:hover, a:active { color: rgb(140, 124, 60); }
+a.lftNav, a.lftNav:link { color: rgb(68, 68, 68); text-decoration: none; }
+a.lftNav:visited { color: rgb(0, 34, 102); text-decoration: none; }
+a.lftNav:active { color: rgb(140, 124, 60); }
+a.lftNav:hover { color: rgb(140, 124, 60); text-decoration: underline; }
+a.extNav, a.extNav:link, a.extNav:visited, a.extNav:active { font-size: x-small; color: rgb(255, 255, 255); text-decoration: none; }
+a.extNav:hover { font-size: x-small; color: rgb(255, 255, 255); text-decoration: underline; }
+.navBlack { color: rgb(0, 0, 0); font-size: x-small; }
+select, option, input { font-family: verdana,arial,helvetica,sans-serif; font-size: small; }
+input[type="text"], input[type="password"] { border: 1px solid rgb(102, 102, 102); padding: 2px; font-family: verdana,arial,helvetica,sans-serif; font-size: small; background: url('input_text_bg.gif') repeat-x scroll 0% 0% rgb(255, 255, 255); }
+.menuBody { border-left: 1px solid rgb(102, 102, 102); border-right: 1px solid rgb(102, 102, 102); border-bottom: 1px solid rgb(102, 102, 102); }
+.menuTable { border-right: 1px solid rgb(221, 221, 221); }
+.menuItem { background-color: rgb(255, 255, 255); background-image: url('menu_bg.gif'); border-top: 1px solid rgb(239, 239, 239); border-bottom: 1px solid rgb(221, 221, 221); padding-top: 2px; padding-bottom: 2px; }
+/* ::::: http://anubis.anu.edu.au/_styles/tableStyles.css ::::: */
+
+/* ::::: http://studyat.anu.edu.au/stylesheets/studyat.css?1320361714 ::::: */
+
+a.popup, span.popup { position: relative; z-index: 24; text-decoration: none; color: blue; }
+a.popup:hover, span.popup:hover { z-index: 25; background-color: white; }
+a.popup span, span.popup span { display: none; }
+a.popup:hover span { display: block; position: absolute; top: 2em; left: 2em; width: 15em; padding: 3px; border: 1px solid black; background-color: white; color: rgb(0, 0, 0); }
+#b_and_w_anu_logo, #print_only_action_name { display: none; }
+a img { border: medium none; }
+div.header h2 { margin: 8px 0px 0px; padding: 0px; float: left; }
+div.item_action_block { padding: 0px 0px 2px 2px; margin: 4px 0px 0px; float: right; }
+a.apply_online { border: medium none; vertical-align: text-bottom; }
+a.apply_online img { border: medium none; vertical-align: text-bottom; }
+tr.label_value td { padding-bottom: 12px; padding-right: 5px; }
+tr.label_value td p { padding-top: 0px; margin-top: 0px; }
+p.nav_bar { padding: 12px 0px 16px 4px; font-size: 110%; margin: 0px; clear: both; height: 100%; }
+div.headTitle a, div.headTitle a:visited { color: white; text-decoration: none; }

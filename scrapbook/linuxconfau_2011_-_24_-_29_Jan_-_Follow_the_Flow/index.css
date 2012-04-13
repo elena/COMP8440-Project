@@ -1,0 +1,74 @@
+/* ::::: http://127.0.0.1:5000/screen.css ::::: */
+
+body { position: relative; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size: 9pt; color: rgb(102, 102, 102); margin: 0px auto; width: 900px; background: url('background.gif') repeat-y scroll center top rgb(146, 132, 123); }
+#wrapper { width: 900px; margin: 0px auto; background: url('background.gif') repeat-y scroll center top rgb(146, 132, 123); }
+#head { top: 0px; height: 120px; background: url('header.gif') no-repeat scroll center top transparent; }
+#page-title { position: absolute; top: 35px; left: 235px; width: 605px; font-size: 20pt; font-weight: bold; color: rgb(238, 238, 238); }
+#page-subtitle { position: absolute; top: 65px; left: 235px; width: 605px; font-size: 16pt; font-weight: bold; color: rgb(221, 221, 221); }
+#columns { width: 900px; margin: 0px auto; }
+#col-left { position: relative; float: left; width: 171px; margin: 15px 0px 0px 40px; padding-left: 10px; }
+#col-right { position: relative; float: right; width: 600px; margin: 15px 61px 0px 0px; height: 100%; }
+#sidebar a { text-decoration: none; color: rgb(221, 221, 221); padding: 2px 2px 4px; text-indent: 4px; display: block; }
+#sidebar { color: rgb(170, 170, 170); }
+#sidebar a.active, #sidebar .selected, #sidebar a:hover { color: rgb(238, 238, 238); background: url('selector.gif') no-repeat scroll right center rgb(102, 102, 102); }
+#sidebar ul { list-style: none outside none; margin: 0px; padding: 0px; }
+#sidebar li { display: list-item; margin: 0px; border-bottom: 1px solid rgb(102, 102, 102); }
+#sidebar h3 { font-size: 130%; color: rgb(255, 255, 255); margin-bottom: 5px; }
+#footer { text-align: right; color: rgb(102, 102, 102); border-top: 1px solid rgb(204, 204, 204); margin-top: 18px; padding: 10px 0px; }
+a { color: rgb(103, 153, 177); text-decoration: underline; }
+a:hover { color: rgb(131, 143, 150); text-decoration: none; }
+h1, h2, h3, h4, h5 { color: rgb(102, 102, 102); }
+h2 { font-size: 14pt; }
+h3 { font-size: 12pt; }
+#flash { width: 100%; }
+.netv-menu a, .netv-menu a:link, .netv-menu a:visited, .netv-menu a:hover { text-align: left; text-decoration: none; outline: medium none; letter-spacing: normal; word-spacing: normal; }
+.netv-menu, .netv-menu ul { margin: 0pt; padding: 0pt; border: 0pt none; list-style-type: none; display: block; }
+.netv-menu li { margin: 0pt; padding: 0pt; border: 0pt none; display: block; float: left; position: relative; z-index: 5; background: none repeat scroll 0% 0% transparent; }
+.netv-menu li:hover { z-index: 10000; white-space: normal; }
+.netv-menu:after, .netv-menu ul:after { content: "."; height: 0pt; display: block; visibility: hidden; overflow: hidden; clear: both; }
+.netv-menu, .netv-menu ul { min-height: 0pt; }
+.netv-menu .selected { margin: 0pt; padding: 0pt; border: 0pt none; display: block; float: left; position: relative; z-index: 5; background: none repeat scroll 0% 0% rgb(204, 204, 204); }
+.netv-menu { padding: 0pt; }
+.netv-nav { position: relative; height: 29px; z-index: 100; background: none repeat scroll 0% 0% rgb(102, 102, 102); }
+.netv-nav .l, .netv-nav .r { position: absolute; z-index: -1; top: 0pt; height: 29px; background-image: url('nav.png'); }
+.netv-nav .l { left: 0pt; right: 0pt; }
+.netv-nav .r { right: 0pt; width: 974px; clip: rect(auto, auto, auto, 974px); }
+.netv-menu a { position: relative; display: block; overflow: hidden; height: 29px; cursor: pointer; text-decoration: none; }
+.netv-menu li { margin-right: 0pt; margin-left: 0pt; }
+.netv-menu a .r, .netv-menu a .l { position: absolute; display: block; top: 0pt; z-index: -1; height: 87px; background-image: url('menuitem.png'); }
+.netv-menu a .l { left: 0pt; right: 0pt; }
+.netv-menu a .r { width: 400px; right: 0pt; clip: rect(auto, auto, auto, 400px); }
+.netv-menu a .t { font-size: 13px; color: rgb(0, 0, 0); padding: 0pt 8px; margin: 0pt; line-height: 29px; text-align: center; }
+.netv-menu a:hover .l, .netv-menu a:hover .r { top: -29px; }
+.netv-menu li:hover > a .l, .netv-menu li:hover > a .r { top: -29px; }
+.netv-menu li:hover a .l, .netv-menu li:hover a .r { top: -29px; }
+.netv-menu a:hover .t { color: rgb(244, 245, 240); }
+.netv-menu li:hover a .t { color: rgb(244, 245, 240); }
+.netv-menu li:hover > a .t { color: rgb(244, 245, 240); }
+/* ::::: http://127.0.0.1:5000/css/lightbox.css ::::: */
+
+#lightbox { position: absolute; top: 20px; left: 0pt; width: 100%; z-index: 100; text-align: center; line-height: 0; color: rgb(21, 20, 16); }
+#lightbox a, #lightbox a:hover { border-bottom: medium none; color: rgb(21, 20, 16); text-decoration: underline; }
+#outerImageContainer { position: relative; background-color: rgb(255, 255, 255); width: 250px; height: 250px; margin: 0pt auto; }
+#imageContainer { padding: 10px; }
+#loading { position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#loadingLink { display: block; margin: 0pt auto; padding: 0pt; width: 32px; height: 32px; background: url('loading.gif') no-repeat scroll center center transparent; text-indent: -9999px; }
+#hoverNav { position: absolute; top: 0pt; left: 0pt; height: 100%; width: 100%; z-index: 10; }
+#imageContainer > #hoverNav { left: 0pt; }
+#hoverNav a { outline: medium none; }
+#prevLinkImg, #nextLinkImg { width: 49%; height: 100%; background: url('blank.gif') no-repeat scroll 0% 0% transparent; display: block; text-indent: -9999px; }
+#prevLinkImg { left: 0pt; float: left; }
+#nextLinkImg { right: 0pt; float: right; }
+#prevLinkImg:hover, #prevLinkImg:visited:hover { background: url('prevlabel.gif') no-repeat scroll left 15% transparent; }
+#nextLinkImg:hover, #nextLinkImg:visited:hover { background: url('nextlabel.gif') no-repeat scroll right 15% transparent; }
+#imageDataContainer { font: 10px/1.4em Verdana,Helvetica,sans-serif; background-color: rgb(255, 255, 255); margin: 0pt auto; }
+#imageData { padding: 0pt 10px; }
+#imageDetails { width: 70%; float: left; text-align: left; }
+#caption { font-weight: bold; }
+#numberDisplay { display: block; clear: left; }
+#detailsNav { display: block; clear: left; padding: 0pt 0pt 10px; }
+#prevLinkDetails { margin: 0pt 8px 0pt 0pt; }
+#nextLinkDetails { margin: 0pt 8px 0pt 0pt; }
+#closeLink { display: block; margin: 0pt; padding: 0pt 0pt 10px; text-decoration: none; float: right; width: 66px; height: 28px; background: url('closelabel.gif') no-repeat scroll 0% 0% transparent; text-indent: -9999px; overflow: hidden; }
+#overlay { position: absolute; top: 0pt; left: 0pt; z-index: 90; width: 100%; height: 500px; background-color: rgb(21, 20, 16); opacity: 0.6; }
+.clearfix:after { content: "."; display: block; height: 0pt; clear: both; visibility: hidden; }

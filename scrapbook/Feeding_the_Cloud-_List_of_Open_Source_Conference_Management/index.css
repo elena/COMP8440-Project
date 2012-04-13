@@ -1,0 +1,122 @@
+/* ::::: http://www.blogger.com/static/v1/widgets/1710613946-widget_css_bundle.css ::::: */
+
+#ArchiveList .toggle { cursor: pointer; font-family: Arial,sans-serif; }
+#ArchiveList .toggle-open { line-height: 0.6em; }
+#ArchiveList { text-align: left; }
+#ArchiveList a.post-count-link, #ArchiveList a.post-count-link:link, #ArchiveList a.post-count-link:visited { text-decoration: none; }
+#ArchiveList a.toggle, #ArchiveList a.toggle:link, #ArchiveList a.toggle:visited, #ArchiveList a.toggle:hover { color: inherit; text-decoration: none; }
+.BlogArchive #ArchiveList ul li { background: none repeat scroll 0% 0% transparent; list-style: none outside none; border-width: 0pt; padding-left: 15px; text-indent: -15px; margin: 0.25em 0pt; }
+.BlogArchive #ArchiveList ul ul li { padding-left: 1.2em; }
+.BlogArchive #ArchiveList ul { margin: 0pt; padding: 0pt; list-style: none outside none; border-width: 0pt; }
+.BlogArchive #ArchiveList ul.posts li { padding-left: 1.3em; }
+#ArchiveList .collapsed ul { display: none; }
+.post-footer abbr { border: medium none; }
+#blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; }
+#blog-pager { margin: 1em 0pt; text-align: center; overflow: hidden; }
+#comments-block .avatar-image-container img { border: 1px solid rgb(204, 204, 204); float: right; }
+#comments-block .avatar-image-container.avatar-stock img { border-width: 0pt; padding: 1px; }
+#comments-block .avatar-image-container { height: 37px; left: -45px; position: absolute; width: 37px; }
+#comments-block.avatar-comment-indent { margin-left: 45px; position: relative; }
+#comments-block.avatar-comment-indent dd { margin-left: 0pt; }
+.comments { clear: both; margin-top: 10px; margin-bottom: 0pt; }
+.comments .avatar-image-container { float: left; max-height: 36px; overflow: hidden; width: 36px; }
+.comments .avatar-image-container img { max-width: 36px; }
+@media screen and (max-device-width: 480px) {
+}
+.item-control { display: none; }
+.item-control a, .item-action a { text-decoration: none ! important; }
+.widget-item-control { float: right; height: 20px; margin-top: -20px; position: relative; z-index: 10; }
+.widget-item-control a { opacity: 0.5; }
+.widget-item-control a:hover { opacity: 1; }
+.widget .widget-item-control a img { border: medium none; background: none repeat scroll 0% 0% transparent; box-shadow: none; }
+@media all {
+}
+:first-child + html .goog-inline-block { display: inline; }
+:first-child + html .goog-custom-button-inner-box { left: -1px; }
+:first-child + html .goog-custom-button-rtl .goog-custom-button-inner-box { left: 1px; }
+.clear { clear: both; }
+.label-size-1 { font-size: 80%; opacity: 0.8; }
+.label-size-2 { font-size: 90%; opacity: 0.9; }
+.label-size-3 { font-size: 100%; }
+.label-size-4 { font-size: 120%; }
+.label-size-5 { font-size: 160%; }
+.cloud-label-widget-content { text-align: justify; }
+.label-size { line-height: 1.2; }
+.quickedit { cursor: pointer; }
+.Navbar iframe { display: block; }
+.profile-img { float: left; margin: 0pt 5px 5px; }
+.profile-data { margin: 0pt; }
+.profile-datablock { margin: 0.5em 0pt; }
+.profile-textblock { margin: 0.5em 0pt; }
+/* ::::: http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7615241590176793465&zx=136fbc81-0668-4c1f-a956-83414c9d660f ::::: */
+
+#navbar-iframe { display: block; }
+body { background: none repeat scroll 0% 0% rgb(17, 34, 51); margin: 0pt; text-align: center; font: small Trebuchet MS,Verdana,Arial,Sans-serif; color: rgb(51, 51, 51); }
+#outer-wrapper { width: 840px; margin: 0pt auto; text-align: left; font: 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+#main-wrap1 { width: 585px; float: left; background: none no-repeat scroll left bottom rgb(238, 238, 204); margin: 15px 0pt 0pt; padding: 0pt 0pt 10px; color: rgb(51, 51, 51); font-size: 97%; line-height: 1.5em; word-wrap: break-word; overflow: hidden; }
+#main-wrap2 { float: left; width: 100%; background: none no-repeat scroll left top transparent; padding: 10px 0pt 0pt; }
+#main { background: none repeat-y scroll left center transparent; padding: 0pt; width: 585px; }
+#sidebar-wrap { width: 240px; float: right; margin: 15px 0pt 0pt; font-size: 97%; line-height: 1.5em; word-wrap: break-word; overflow: hidden; }
+.main .widget { margin-top: 4px; width: 628px; padding: 0pt 13px; }
+.main .Blog { margin: 0pt; padding: 0pt; width: 584px; }
+a:link { color: rgb(68, 85, 102); }
+a:visited { color: rgb(34, 51, 68); }
+a:hover { color: rgb(34, 51, 68); }
+a img { border-width: 0pt; }
+#header-wrapper { background: none repeat scroll 0% 0% rgb(51, 85, 119); margin: 22px 0pt 0pt; padding: 8px 0pt 0pt; color: rgb(255, 255, 255); }
+#header { background: none no-repeat scroll left bottom transparent; padding: 0pt 15px 8px; }
+#header h1 { margin: 0pt; padding: 10px 30px 5px; font: bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+#header a, #header a:visited { text-decoration: none; color: rgb(255, 255, 255); }
+#header .description { margin: 0pt; padding: 5px 30px 10px; font: 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+h2.date-header { margin: 0pt 28px 0pt 43px; font-size: 85%; line-height: 2em; text-transform: uppercase; letter-spacing: 0.2em; color: rgb(85, 136, 102); }
+.post { margin: 0.3em 0pt 25px; padding: 0pt 13px; border-style: dotted; border-color: rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; border-width: 1px 0pt; }
+.post h3 { margin: 0pt; background: url('icon_arrow.gif') no-repeat scroll 10px 0.5em transparent; display: block; border-style: dotted; border-color: rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; border-width: 0pt 1px 1px; padding: 2px 14px 2px 29px; color: rgb(51, 51, 51); font: bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+.post h3 a, .post h3 a:visited { text-decoration: none; color: rgb(51, 51, 51); }
+.post-body { border-style: dotted; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(238, 238, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; border-width: 0pt 1px 1px; padding: 10px 14px 1px 29px; }
+html > body .post-body { border-bottom-width: 0pt; }
+.post-body { margin: 0pt 0pt 0.75em; }
+.post-footer { background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt; padding: 2px 14px 2px 29px; border: 1px dotted rgb(187, 187, 187); font-size: 100%; line-height: 1.5em; color: rgb(102, 102, 102); }
+.post-footer p { margin: 0pt; }
+html > body .post-footer { border-bottom-color: transparent; }
+.post-footer a { color: rgb(68, 85, 102); }
+.post-footer a:hover { color: rgb(34, 51, 68); }
+#blog-pager-newer-link { float: left; margin-left: 13px; }
+#blog-pager-older-link { float: right; margin-right: 13px; }
+#blog-pager { text-align: center; }
+.feed-links { clear: both; line-height: 2.5em; margin-left: 13px; }
+#comments { margin: -25px 13px 0pt; border-style: dotted; border-color: rgb(187, 187, 187); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; border-width: 0pt 1px 1px; padding: 20px 0pt 15px; }
+#comments h4 { margin: 0pt 0pt 10px; padding: 0pt 14px 2px 29px; border-bottom: 1px dotted rgb(187, 187, 187); font-size: 120%; line-height: 1.4em; color: rgb(51, 51, 51); }
+#comments-block { margin: 0pt 15px 0pt 9px; }
+.comment-author { background: url('icon_comment_left.gif') no-repeat scroll 2px 0.3em transparent; margin: 0.5em 0pt; padding: 0pt 0pt 0pt 20px; font-weight: bold; }
+.comment-body { margin: 0pt 0pt 1.25em; padding: 0pt 0pt 0pt 20px; }
+.comment-body p { margin: 0pt 0pt 0.5em; }
+.comment-footer { margin: 0pt 0pt 0.5em; padding: 0pt 0pt 0.75em 20px; }
+.comment-footer a:link { color: rgb(51, 51, 51); }
+.profile-img { float: left; margin: 5px 5px 5px 0pt; border: 4px solid rgb(255, 255, 255); }
+.profile-datablock { margin: 0pt 15px 0.5em 0pt; padding-top: 8px; }
+.profile-link { background: none no-repeat scroll left 0.1em transparent; padding-left: 15px; font-weight: bold; }
+.profile-textblock { clear: both; margin: 0pt; }
+.sidebar .clear, .main .widget .clear { clear: both; }
+#sidebartop-wrap { background: none no-repeat scroll left bottom rgb(85, 136, 102); margin: 0px 0px 15px; padding: 0px 0px 10px; color: rgb(255, 255, 255); }
+#sidebartop-wrap2 { background: none no-repeat scroll left top transparent; padding: 10px 0pt 0pt; margin: 0pt; border-width: 0pt; }
+#sidebartop h2 { color: rgb(255, 255, 255); border-bottom: 1px dotted rgb(255, 255, 255); font: bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; margin-bottom: 0.5em; }
+#sidebartop a { color: rgb(255, 255, 255); }
+#sidebartop a:hover { color: rgb(255, 255, 255); }
+#sidebartop a:visited { color: rgb(255, 255, 255); }
+#sidebar a { color: rgb(153, 221, 187); }
+#sidebar a:hover, #sidebar a:visited { color: rgb(255, 255, 255); }
+.sidebar .widget { margin: 0.5em 13px 1.25em; padding: 0pt 0px; }
+.widget-content { margin-top: 0.5em; }
+#sidebarbottom-wrap1 { background: none no-repeat scroll left top rgb(51, 85, 119); margin: 0pt 0pt 15px; padding: 10px 0pt 0pt; color: rgb(255, 255, 255); }
+#sidebarbottom-wrap2 { background: none no-repeat scroll left bottom transparent; padding: 0pt 0pt 8px; }
+.sidebar h2 { margin: 0pt 0pt 0.5em; padding: 0pt 0pt 0.2em; font: bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+.sidebar ul { list-style: none outside none; margin: 0pt 0pt 1.25em; padding: 0pt; }
+.sidebar ul li { background: url('icon_arrow_sm.gif') no-repeat scroll 2px 0.25em transparent; margin: 0pt 0pt 3px; padding: 0pt 0pt 3px 16px; border-bottom: 1px dotted rgb(187, 187, 187); line-height: 1.4em; }
+.sidebar p { margin: 0pt 0pt 0.6em; }
+#sidebar h2 { color: rgb(170, 187, 204); border-bottom: 1px dotted rgb(170, 187, 204); }
+#footer-wrap1 { clear: both; margin: 0pt 0pt 10px; padding: 15px 0pt 0pt; }
+#footer-wrap2 { background: none no-repeat scroll left top rgb(51, 85, 119); color: rgb(255, 255, 255); }
+#footer { background: none no-repeat scroll left bottom transparent; padding: 8px 15px; }
+#footer a { color: rgb(255, 255, 255); }
+#footer .widget-content { margin: 0pt; }

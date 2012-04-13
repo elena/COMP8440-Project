@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+	<title>dpaste: #730510: Pylons config error, by u4202343</title>
+    
+    
+    
+
+	
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body>
+<div id="topbar">
+<h1 style="float: left;">
+    
+		<em>Pylons config error</em>  
+	
+	
+		pasted by <em>u4202343</em>, 
+	
+	03:41 April 12th
+</h1>
+<div id="headercontrols">
+    <h1><a href="http://dpaste.com/" title="paste a new item">‣ New</a></h1>
+</div>
+</div>
+<div id="content">
+
+<p class="note">This is your most recent paste. You can still <a href="http://dpaste.com/730510/delete/">delete it</a> if you like.</p>
+
+<div class="controlbar">
+    <div class="language">Syntax: <strong>Python Interactive/Traceback</strong></div>   
+    <div class="controls">
+    &nbsp;&nbsp;&nbsp;
+    <a href="http://dpaste.com/730510/plain/" title="see plaintext version">‣ Plain</a>&nbsp;&nbsp;
+    <a href="http://dpaste.com/730510/html/" title="self-contained HTML snippet (for your blog etc.)">‣ HTML</a>&nbsp;&nbsp;
+    <a href="http://dpaste.com/730510/copy/" title="make a new paste based on this one">‣ Copy</a>
+    </div>
+</div>
+
+<div class="highlight" style="background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 0pt;"><table><tbody><tr><td class="linenos"><pre> 1
+ 2
+ 3
+ 4
+<span class="special"> 5</span>
+ 6
+ 7
+ 8
+ 9
+<span class="special">10</span>
+11
+12
+13
+14
+<span class="special">15</span>
+16
+17
+18
+19
+<span class="special">20</span>
+21
+22
+23
+24
+<span class="special">25</span>
+26
+27
+28
+29
+<span class="special">30</span>
+31
+32
+33
+34
+<span class="special">35</span>
+36
+37
+38</pre></td><td class="code"><pre><span class="go">(pylons)u4202343@n115lt25:/home/u4202343/zk/zookeepr$ paster serve --reload -v config.ini</span>
+<span class="go">Starting subprocess with file monitor</span>
+<span class="go">Running reloading file monitor</span>
+<span class="go"></span><span class="gt">Traceback (most recent call last):</span>
+<span class="gt"></span>  File <span class="nb">"/home/u4202343/zk/zookeepr/pylons/bin/paster"</span>, line <span class="m">9</span>, in <span class="n-Identifier">&lt;module&gt;</span>
+    <span class="n">load_entry_point</span><span class="p">(</span><span class="s">'PasteScript==1.7.3'</span><span class="p">,</span> <span class="s">'console_scripts'</span><span class="p">,</span> <span class="s">'paster'</span><span class="p">)()</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/script/command.py"</span>, line <span class="m">84</span>, in <span class="n-Identifier">run</span>
+    <span class="n">invoke</span><span class="p">(</span><span class="n">command</span><span class="p">,</span> <span class="n">command_name</span><span class="p">,</span> <span class="n">options</span><span class="p">,</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/script/command.py"</span>, line <span class="m">123</span>, in <span class="n-Identifier">invoke</span>
+    <span class="n">exit_code</span> <span class="o">=</span> <span class="n">runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/script/command.py"</span>, line <span class="m">218</span>, in <span class="n-Identifier">run</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">command</span><span class="p">()</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/script/serve.py"</span>, line <span class="m">276</span>, in <span class="n-Identifier">command</span>
+    <span class="n">relative_to</span><span class="o">=</span><span class="n">base</span><span class="p">,</span> <span class="n">global_conf</span><span class="o">=</span><span class="nb">vars</span><span class="p">)</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/script/serve.py"</span>, line <span class="m">313</span>, in <span class="n-Identifier">loadapp</span>
+    <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/deploy/loadwsgi.py"</span>, line <span class="m">204</span>, in <span class="n-Identifier">loadapp</span>
+    <span class="k">return</span> <span class="n">loadobj</span><span class="p">(</span><span class="n">APP</span><span class="p">,</span> <span class="n">uri</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/deploy/loadwsgi.py"</span>, line <span class="m">225</span>, in <span class="n-Identifier">loadobj</span>
+    <span class="k">return</span> <span class="n">context</span><span class="o">.</span><span class="n">create</span><span class="p">()</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/deploy/loadwsgi.py"</span>, line <span class="m">625</span>, in <span class="n-Identifier">create</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">object_type</span><span class="o">.</span><span class="n">invoke</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/deploy/loadwsgi.py"</span>, line <span class="m">110</span>, in <span class="n-Identifier">invoke</span>
+    <span class="k">return</span> <span class="n">fix_call</span><span class="p">(</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="p">,</span> <span class="n">context</span><span class="o">.</span><span class="n">global_conf</span><span class="p">,</span> <span class="o">**</span><span class="n">context</span><span class="o">.</span><span class="n">local_conf</span><span class="p">)</span>
+  File <span class="nb">"/usr/lib/pymodules/python2.7/paste/deploy/util/fixtypeerror.py"</span>, line <span class="m">57</span>, in <span class="n-Identifier">fix_call</span>
+    <span class="n">val</span> <span class="o">=</span> <span class="nb">callable</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
+  File <span class="nb">"/home/u4202343/zk/zookeepr/zookeepr/config/middleware.py"</span>, line <span class="m">43</span>, in <span class="n-Identifier">make_app</span>
+    <span class="n">load_environment</span><span class="p">(</span><span class="n">global_conf</span><span class="p">,</span> <span class="n">app_conf</span><span class="p">)</span>
+  File <span class="nb">"/home/u4202343/zk/zookeepr/zookeepr/config/environment.py"</span>, line <span class="m">47</span>, in <span class="n-Identifier">load_environment</span>
+    <span class="n">engine</span> <span class="o">=</span> <span class="n">engine_from_config</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="s">'sqlalchemy.'</span><span class="p">)</span>
+  File <span class="nb">"/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.5.8-py2.7.egg/sqlalchemy/engine/__init__.py"</span>, line <span class="m">241</span>, in <span class="n-Identifier">engine_from_config</span>
+    <span class="k">return</span> <span class="n">create_engine</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="o">**</span><span class="n">opts</span><span class="p">)</span>
+  File <span class="nb">"/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.5.8-py2.7.egg/sqlalchemy/engine/__init__.py"</span>, line <span class="m">223</span>, in <span class="n-Identifier">create_engine</span>
+    <span class="k">return</span> <span class="n">strategy</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+  File <span class="nb">"/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.5.8-py2.7.egg/sqlalchemy/engine/strategies.py"</span>, line <span class="m">121</span>, in <span class="n-Identifier">create</span>
+    <span class="n">engineclass</span><span class="o">.</span><span class="n">__name__</span><span class="p">))</span>
+<span class="nc">TypeError</span>: <span class="n-Identifier">Invalid argument(s) 'use_native_unicode' sent to create_engine(), using configuration SQLiteDialect/SingletonThreadPool/Engine.  Please check that the keyword arguments are appropriate for this combination of components.; got ({'error_...pr'}, app_instance_uuid=..., authkit.cookie.includeip=..., authkit.cookie.secret=..., authkit.cookie.signoutpath=..., authkit.cookie_enforce=..., authkit.forward.signinpath=..., authkit.setup.intercept=..., authkit.setup.method=..., beaker.session.key=..., beaker.session.secret=..., cache_dir=..., full_stack=..., host_name=..., sqlalchemy.convert_unicode=..., sqlalchemy.url=..., sqlalchemy.use_native_unicode=..., static_files=...), wanted (global_conf, full_stack=True, static_files=True, **app_conf)</span>
+<span class="go">(pylons)u4202343@n115lt25:/home/u4202343/zk/zookeepr$ </span>
+<span class="go"></span></pre></td></tr></tbody></table></div>
+
+    <div class="controlbar">This item will be deleted in <strong>6 days</strong><span class="printonly"><br>URL: http://dpaste.com/730510/</span></div>
+</div>
+
+
+<div id="bug">
+<a href="http://dpaste.com/about/">‣ About this site</a>
+</div>
+
+
+
+
+</body>
+</html>

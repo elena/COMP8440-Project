@@ -1,0 +1,164 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+    <head>
+        <title>
+Page not found! -
+ linux.conf.au 2011 | 24 - 29 Jan | Follow the Flow
+</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"> -->
+        <link rel="shortcut icon" href="/images/filledfoot-small.png" type="image/png">
+        <link rel="stylesheet" href="/screen.css" type="text/css" media="screen, projection" />
+        <link rel="stylesheet" media="screen" href="/css/lightbox.css" type="text/css">
+        <link rel="stylesheet" media="print" href="/print.css" type="text/css">
+        <script type="text/javascript" src="/jquery.min.js"></script>
+        <link href="/media/news/rss" rel="alternate" type="application/rss+xml" title="LCA2011 News">
+
+        
+
+        <script type="text/javascript">
+           jQuery(document).ready(function() {
+             jQuery("#flash > div").hide().fadeIn(3500);
+             jQuery("#flash > div").fadeTo(3000, 0.3);
+             jQuery("#flash > div").hover(function() {
+               jQuery(this).fadeTo(250, 1);
+             },function(){
+               jQuery(this).fadeTo(250, 0.3);
+             });
+           });
+        </script>  
+    </head>
+<body>
+  
+  <body>
+
+  <div id="wrapper">
+    <div id="head">
+      <div id="page-logo">
+        <img src="/images/logo.png">
+
+      </div>
+      <div>
+      </div>
+      <div id="page-title">linux.conf.au 2011</div>
+      <div id="page-subtitle">A Linux Australia Conference</div>
+
+    </div>
+
+    <div id="columns">
+
+      <div id="col-left">
+        <div id="sidebar">
+          <h3>Toolbox</h3>
+            <!-- block-content -->
+            
+
+
+
+
+  
+<ul class="netv-vmenu">
+      
+
+      <li><a href="/person/signin"><span class="l"></span><span class="r"></span><span class="t">Sign in</span></a>
+
+      
+
+      <li><a href="/person/new"><span class="l"></span><span class="r"></span><span class="t">Create an account</span></a>
+
+
+</ul>
+
+            <!-- /block-content -->
+
+          <h3>News</h3>
+            <!-- block-content -->
+            <p style="font-size: small;"><em>Currently no news...</em></p>
+			<p class = 'more'><a href = '/media/news'>More news...</a></p>
+
+            <!-- /block-content -->
+
+          <h3>Sponsors</h3>
+            <!-- block-content -->
+              <!-- Sponsors on left column -->
+
+            <!-- /block-content -->
+            
+        </div>
+
+      </div>
+
+      <div id="col-right">
+      <div class="netv-sheet-body">
+        
+<div class="netv-nav">
+<div class="l"></div>
+<div class="r"></div>
+      <ul class="netv-menu">
+          <li class=""><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
+
+          <li class=""><a href="/about/linux.conf.au"><span class="l"></span><span class="r"></span><span class="t">About</span></a></li>
+
+          <li class=""><a href="/brisbane/about"><span class="l"></span><span class="r"></span><span class="t">Brisbane</span></a></li>
+
+          <li class=""><a href="/sponsors/sponsors"><span class="l"></span><span class="r"></span><span class="t">Sponsors</span></a></li>
+
+          <li class=""><a href="/programme/about"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
+
+          <li class=""><a href="/register/prices"><span class="l"></span><span class="r"></span><span class="t">Register</span></a></li>
+
+          <li class=""><a href="/media/news"><span class="l"></span><span class="r"></span><span class="t">Media</span></a></li>
+
+          <li class=""><a href="/contact"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a></li>
+
+          <li class=""><a href="/wiki"><span class="l"></span><span class="r"></span><span class="t">Wiki</span></a></li>
+
+      </ul>
+</div>
+        
+
+
+
+        
+
+      </div>
+        <div id="content">
+               <div id="flash">
+
+    </div>
+
+            
+<h2>Oops!</h2>
+
+<p>
+The page you requested does not actually exist.
+</p>
+
+<p>
+We admire your enthusiasm for requesting information, but this page simply does not exist. If you think that's wrong, you can <a href="mailto:webmaster@lca2011.linux.org.au">send us an email</a> and we'll attend to the problem.
+</p>
+
+
+
+        </div>
+        <div id="footer">© 2011 Zookeepr</div>
+      </div>
+    </div>
+  </div>
+       <script src="/js/prototype.js" type="text/javascript"></script>
+        <script src="/js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+        <script src="/js/lightbox.js" type="text/javascript"></script>
+
+</body>
+</html>
+

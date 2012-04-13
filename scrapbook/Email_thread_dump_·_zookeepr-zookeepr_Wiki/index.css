@@ -1,0 +1,196 @@
+/* ::::: https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-27516ee0fb68b0c4c05f9b1163e5e2c40efbf1e4.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0pt; padding: 0pt; border: 0pt none; font: inherit; }
+input, button, textarea { margin: 0pt; padding: 0pt; font-size: 100%; font-family: inherit; }
+html, body { height: 100%; min-width: 960px; }
+html { overflow-y: scroll; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+button.classy::-moz-focus-inner, button.classy:disabled::-moz-focus-inner, button.classy.disabled::-moz-focus-inner, a.button.classy:disabled::-moz-focus-inner, a.button.classy.disabled::-moz-focus-inner, button.classy:hover:disabled::-moz-focus-inner, button.classy.disabled:hover:disabled::-moz-focus-inner, a.button.classy.disabled:disabled:hover::-moz-focus-inner, a.button.classy.disabled:hover::-moz-focus-inner { margin: -1px -3px; }
+.minibutton { position: relative; display: inline-block; height: 21px; padding: 0pt 0pt 0pt 3px; font-family: Helvetica,arial,freesans,clean,sans-serif; font-size: 11px; font-weight: bold; color: rgb(51, 51, 51); text-shadow: 1px 1px 0pt rgb(255, 255, 255); white-space: nowrap; border: 1px solid rgb(212, 212, 212); border-radius: 3px 3px 3px 3px; background: -moz-linear-gradient(rgb(244, 244, 244), rgb(236, 236, 236)) repeat scroll 0% 0% transparent; cursor: pointer; -moz-user-select: none; }
+.minibutton > span { display: block; height: 21px; padding: 0pt 9px 0pt 7px; line-height: 21px; }
+.minibutton:hover, .button-group .grouped-button:hover { color: rgb(255, 255, 255); text-decoration: none; text-shadow: -1px -1px 0pt rgba(0, 0, 0, 0.3); border-color: rgb(81, 140, 198) rgb(81, 140, 198) rgb(42, 101, 160); background: -moz-linear-gradient(rgb(89, 155, 220), rgb(48, 114, 179)) repeat scroll 0% 0% transparent; }
+.minibutton:disabled, .minibutton.disabled { opacity: 0.5; cursor: default; }
+.minibutton.bigger { height: 23px; }
+.minibutton.bigger > span { font-size: 13px; height: 23px; line-height: 23px; }
+button.minibutton::-moz-focus-inner { margin: -1px -3px; }
+.minibutton.btn-admin .icon, .minibutton.btn-watch .icon, .minibutton.btn-download .icon, .minibutton.btn-pull-request .icon, .minibutton.btn-fork .icon, .minibutton.btn-leave .icon, .minibutton.btn-compare .icon, .minibutton.btn-reply .icon, .minibutton.btn-back .icon, .minibutton.btn-forward .icon, .minibutton.btn-windows .icon { position: relative; top: -1px; float: left; margin-left: -4px; width: 18px; height: 22px; background: url('mini_button_icons.png') no-repeat scroll 0pt 0pt transparent; }
+.minibutton.btn-watch .icon { background-position: -20px 0pt; }
+.minibutton.btn-watch:hover .icon, .button-group .btn-watch.grouped-button:hover .icon { background-position: -20px -25px; }
+.minibutton.btn-download .icon { background-position: -40px 0pt; }
+.minibutton.btn-download:hover .icon, .button-group .btn-download.grouped-button:hover .icon { background-position: -40px -25px; }
+.minibutton.btn-fork .icon { width: 17px; background-position: -80px 0pt; }
+.minibutton.btn-fork:hover .icon, .button-group .btn-fork.grouped-button:hover .icon { background-position: -80px -25px; }
+.watch-button-container .watch-button, .watch-button-container.on .unwatch-button { display: inline-block; }
+.watch-button-container.on .watch-button, .watch-button-container .unwatch-button { display: none; }
+.person:nth-child(2n+1) { margin-left: 0pt; }
+.person:nth-child(2n) { margin-right: 0pt; }
+#graph-shots li:nth-child(2n+1) { margin-left: 0pt; }
+#graph-shots li:nth-child(2n) { margin-right: 0pt; }
+.autocomplete-results { display: none; position: absolute; list-style: none outside none; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); box-shadow: 0pt 0pt 5px rgba(0, 0, 0, 0.1); max-height: 10em; overflow-y: auto; z-index: 9999; font-size: 13px; }
+body { background-color: rgb(255, 255, 255); font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif; color: rgb(51, 51, 51); }
+.container { width: 920px; margin: 0pt auto; }
+pre, code { font: 12px 'Bitstream Vera Sans Mono','Courier',monospace; }
+p { margin: 1em 0pt; }
+small { font-size: 11px; font-weight: 200; }
+img { border: 0pt none; }
+.clearfix:after { content: "."; display: block; height: 0pt; clear: both; visibility: hidden; }
+.clearfix { display: block; }
+a { color: rgb(65, 131, 196); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { outline: medium none; }
+.rule, hr { clear: both; margin: 15px 0pt; height: 0pt; overflow: hidden; border-width: medium medium 1px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; background: none repeat scroll 0% 0% transparent; }
+.columns:after { content: "."; display: block; height: 0pt; clear: both; visibility: hidden; }
+.columns { display: inline-block; }
+.columns { display: block; }
+.site { position: relative; padding: 20px 0pt 0pt; width: 100%; z-index: 9; }
+h3 { font-size: 15px; }
+h2, h3 { margin: 1em 0pt; }
+.placeholder-field { position: relative; }
+.placeholder-field label.placeholder { position: absolute; top: 3px; left: 5px; margin: 0pt; color: rgb(170, 170, 170); font-size: 12px; }
+.columns.equacols .column { width: 440px; float: left; }
+dl.keyboard-mappings { margin: 5px 0pt; font-size: 12px; }
+dl.keyboard-mappings dt { display: inline-block; margin: 0pt; padding: 3px 6px; min-width: 10px; text-align: center; font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace; background: none repeat scroll 0% 0% rgb(51, 51, 51); color: rgb(238, 238, 238); border-radius: 2px 2px 2px 2px; text-shadow: 1px 1px 0pt rgb(0, 0, 0); }
+dl.keyboard-mappings dt em { padding: 0pt 4px; color: rgb(153, 153, 153); font-style: normal; font-weight: normal; font-size: 10px; font-family: Helvetica,Arial,freesans,sans-serif; text-shadow: none; }
+dl.keyboard-mappings dd { display: inline; margin: 0pt 0pt 0pt 5px; color: rgb(102, 102, 102); }
+.ajax-error-message { position: absolute; top: -50px; left: 0pt; width: 100%; padding: 0pt; text-align: center; border-bottom: 1px solid rgb(255, 212, 42); background: -moz-linear-gradient(rgba(255, 253, 244, 0.9), rgba(253, 243, 217, 0.9)) repeat scroll 0% 0% transparent; z-index: 9999; font-weight: bold; -moz-transition: top 0.5s ease 0s; }
+.ajax-error-message p { margin: 0pt; padding: 0pt; }
+.ajax-error-message .icon { position: relative; top: 4px; background: url('error_notice.png') repeat scroll 0% 0% transparent; width: 22px; height: 18px; display: inline-block; }
+#markdown-help { display: none; }
+.commit-group-item:nth-child(2n+1) { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.commit-group-item:nth-child(2n+1) .gobutton { border-color: rgb(213, 220, 223); background: -moz-linear-gradient(rgb(242, 245, 246), rgb(227, 234, 237)) repeat scroll 0% 0% transparent; }
+.commits-condensed tr:nth-child(2n) td { background: none repeat scroll 0% 0% rgb(245, 245, 245); }
+.context-overlay { display: none; -moz-user-select: none; }
+@media not all {
+}
+ol.download-list li:nth-child(2n) { background-color: rgb(246, 246, 246); }
+#wrapper { min-height: 100%; height: auto ! important; margin: 0pt 0pt -330px; }
+#footer-push { height: 330px; clear: both; }
+#footer { color: rgb(99, 99, 99); padding: 45px 0pt 0pt; font-size: 12px; clear: both; }
+#footer a:hover { text-decoration: underline; }
+#footer li { list-style: none outside none; }
+#footer .upper_footer { min-height: 160px; overflow: hidden; border-top: 1px solid rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); box-shadow: 0pt -1px 0pt white inset; background-color: rgb(248, 248, 248); }
+#footer #blacktocat { height: 130px; width: 164px; float: left; background: url('blacktocat.svg') no-repeat scroll 0% 0% transparent; text-indent: -5000px; margin: 15px 20px 0pt 0pt; }
+#footer .upper_footer ul.footer_nav { position: relative; float: left; width: 164px; margin: 20px 10px; }
+#footer .upper_footer ul.footer_nav h4 { margin-bottom: 5px; padding-bottom: 5px; border-bottom: thin solid rgb(225, 225, 225); }
+#footer .lower_footer { position: relative; background-color: rgb(255, 255, 255); overflow: hidden; clear: both; }
+#footer .lower_footer #legal { float: left; width: 350px; height: 60px; line-height: 8px; margin: 25px 0pt 0pt 15px; padding-left: 179px; background: url('footer-logo.svg') no-repeat scroll 0pt 5px transparent; }
+#footer .lower_footer div ul { float: left; display: inline; margin-top: 15px; }
+#footer .lower_footer div ul li { display: inline; float: left; margin: 0pt 10px 2px 0pt; }
+#footer .lower_footer div p { display: inline; float: left; clear: both; margin-top: 5px; }
+#footer .lower_footer .sponsor { width: 295px; float: right; margin-top: 35px; padding-bottom: 25px; }
+#footer .lower_footer .sponsor .logo { float: left; margin: 0pt 10px 0pt 0pt; }
+#footer .lower_footer .sponsor a { color: rgb(0, 0, 0); }
+#header { background: -moz-linear-gradient(rgb(250, 250, 250), rgb(234, 234, 234)) repeat scroll 0% 0% transparent; position: relative; z-index: 10; border-bottom: 1px solid rgb(202, 202, 202); box-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.4), 0pt 0pt 10px rgba(0, 0, 0, 0.1); }
+.site-logo { float: left; position: relative; padding: 9px 0pt 0pt; }
+.site-logo img { position: absolute; top: 10px; left: 0pt; }
+.github-logo-4x { float: left; }
+.github-logo-4x-hover { opacity: 0; }
+.site-logo:hover .github-logo-4x { opacity: 0; }
+.site-logo:hover .github-logo-4x-hover { opacity: 1; }
+.topsearch { float: left; clear: none; width: auto; border-left: 1px solid rgb(250, 250, 250); box-shadow: -1px 0pt 0pt rgb(224, 224, 224); padding: 10px; margin: 0pt 0pt 0pt 87px; }
+#top_search_form { float: left; }
+.topsearch form input.button { display: none; }
+.topsearch .placeholder-field label.placeholder { top: 6px; left: 30px; width: 150px; }
+.topsearch .search { float: left; }
+.topsearch .search .mini-icon { position: absolute; left: 8px; top: 6px; }
+.topsearch .search input { float: left; background-color: rgb(255, 255, 255); border-right: 1px solid rgb(221, 221, 221); border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205) rgb(221, 221, 221) rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; box-shadow: 0pt 1px 0pt rgb(241, 241, 241), 0pt 1px 1px rgb(224, 224, 224) inset; padding: 5px 5px 5px 30px; color: rgb(153, 153, 153); font-size: 12px; width: 150px; }
+.topsearch .search input:active { color: rgb(34, 34, 34); }
+.topsearch a.advanced-search { width: 16px; height: 16px; margin: 4px 0pt 0pt 5px; float: right; overflow: hidden; opacity: 0.3; }
+.topsearch .advanced-search:hover { opacity: 0.8; }
+.top-nav { float: left; margin: 0pt 0pt 0pt 20px; list-style: none outside none; line-height: 26px; }
+.top-nav li { float: left; margin: 0pt 10px 0pt 0pt; }
+.top-nav a { font-weight: bold; color: rgb(34, 34, 34); text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.5); }
+.top-nav a:hover { text-decoration: none; color: rgb(65, 131, 196); }
+#userbox { float: right; line-height: 20px; padding: 7px 0pt; }
+#userbox a { color: rgb(34, 34, 34); }
+#userbox a:hover { text-decoration: none; color: rgb(65, 131, 196); }
+#user { float: left; font-weight: bold; padding: 5px 0pt; text-shadow: 0pt 1px 0pt rgb(255, 255, 255); }
+#user img { float: left; margin: 1px 5px 0pt 0pt; border-radius: 3px 3px 3px 3px; }
+#user .name { line-height: 22px; }
+#user-links { background: -moz-linear-gradient(rgb(241, 241, 241), rgb(224, 224, 224)) repeat scroll 0% 0% transparent; float: left; margin: 2px 0pt 0pt 20px; padding: 0pt; border: 1px solid rgb(221, 221, 221); border-radius: 3px 3px 3px 3px; box-shadow: 0pt 1px 0pt rgb(250, 250, 250), 0pt 1px 0pt rgb(250, 250, 250) inset; list-style: none outside none; }
+#user-links li { position: relative; float: left; margin: 0pt 0pt 0pt 10px; }
+#user-links a { display: block; padding: 4px 5px 3px; }
+#user-links li:first-child { margin-left: 5px; }
+#user-links li:last-child a { padding-right: 5px; }
+#user-links .unread_count { position: absolute; top: -6px; left: 75%; float: left; margin-left: -7px; background: none repeat scroll 0% 0% rgba(203, 108, 0, 0.8); border-bottom: 1px solid rgb(143, 79, 7); border-radius: 2px 2px 2px 2px; padding: 3px 4px; line-height: 1; font-size: 9px; color: rgb(255, 255, 255); font-weight: bold; white-space: nowrap; }
+#logo-popup { display: none; }
+.mini-icon { display: inline-block; height: 16px; width: 16px; background-color: transparent; background-position: 0pt 0pt; background-repeat: no-repeat; vertical-align: text-bottom; }
+.mini-icon.search-input { background-image: url('icons.png'); background-position: -154px 0pt; }
+.mini-icon.advanced-search { background-image: url('icons.png'); background-position: -120px 0pt; }
+.mini-icon.notifications { background-image: url('icons.png'); background-position: -32px 0pt; }
+.mini-icon.notifications:hover { background-position: -32px -38px; }
+.mini-icon.account-settings { background-image: url('icons.png'); background-position: -92px 0pt; }
+.mini-icon.account-settings:hover { background-position: -92px -40px; }
+.mini-icon.logout { background-image: url('icons.png'); background-position: -66px -1px; }
+.mini-icon.logout:hover { background-position: -66px -38px; }
+.mini-icon.public-repo { background-image: url('public.png'); }
+/* ::::: https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-6284532582acf1894c37a05a79b85300909b376e.css ::::: */
+
+#gollum-footer { font-size: 12px; line-height: 19px; }
+#gollum-footer #last-edit { color: rgb(153, 153, 153); margin: 10px 0pt 0pt; }
+#gollum-footer #delete-link { margin: 0pt 0pt 10px; }
+.markdown-body { font-size: 14px; line-height: 1.6; }
+.markdown-body > :first-child { margin-top: 0pt ! important; }
+.markdown-body > :last-child { margin-bottom: 0pt ! important; }
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body li, .markdown-body table, .markdown-body pre { margin: 15px 0pt; }
+.markdown-body ul, .markdown-body ol { padding-left: 30px; }
+.markdown-body ul li > :first-child, .markdown-body ol li > :first-child { margin-top: 0pt; }
+.markdown-body ul li > :last-child, .markdown-body ol li > :last-child { margin-bottom: 0pt; }
+.markdown-body dl dt > :first-child { margin-top: 0pt; }
+.markdown-body dl dt > :last-child { margin-bottom: 0pt; }
+.markdown-body dl dd > :first-child { margin-top: 0pt; }
+.markdown-body dl dd > :last-child { margin-bottom: 0pt; }
+.markdown-body blockquote > :first-child { margin-top: 0pt; }
+.markdown-body blockquote > :last-child { margin-bottom: 0pt; }
+.markdown-body table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-body table tr th > :first-child, .markdown-body table tr td > :first-child { margin-top: 0pt; }
+.markdown-body table tr th > :last-child, .markdown-body table tr td > :last-child { margin-bottom: 0pt; }
+.pagehead { position: relative; display: block; margin: 0pt 0pt 20px; }
+.pagehead h1 { margin: 0pt 0pt 10px; font-size: 20px; font-weight: normal; line-height: 28px; letter-spacing: -1px; text-shadow: 1px 1px 0pt rgb(255, 255, 255); color: rgb(73, 89, 97); }
+.pagehead.repohead h1 { color: rgb(102, 102, 102); margin-bottom: 15px; }
+.pagehead.repohead h1 .mini-icon { vertical-align: -1px; }
+.pagehead.repohead h1 strong { font-weight: bold; }
+.pagehead h1 a { color: rgb(73, 89, 97); }
+.pagehead.repohead h1 a { color: rgb(65, 131, 196); white-space: nowrap; }
+.pagehead .title-actions-bar { overflow: hidden; }
+.pagehead .title-actions-bar a:hover { text-decoration: none; }
+ul.pagehead-actions { margin: 0pt; float: right; position: absolute; right: 0pt; }
+.pagehead.repohead ul.pagehead-actions { position: relative; top: -3px; right: 0pt; padding: 5px 0pt 0pt 20px; }
+ul.pagehead-actions > li { list-style-type: none; display: inline; font-size: 11px; font-weight: bold; color: rgb(51, 51, 51); margin: 0pt 0pt 0pt 5px; }
+.pagehead > ul.tabs { position: relative; margin: 10px 0pt 0pt; font-size: 12px; font-weight: bold; background: -moz-linear-gradient(rgb(250, 250, 250), rgb(234, 234, 234)) repeat scroll 0% 0% transparent; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234) rgb(234, 234, 234) rgb(202, 202, 202); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; border-radius: 3px 3px 3px 3px; }
+.pagehead > ul.tabs li { list-style-type: none; margin: 0pt; display: table-cell; width: 1%; }
+.pagehead > ul.tabs li a { display: block; text-align: center; line-height: 35px; font-size: 12px; color: rgb(119, 119, 119); text-decoration: none; text-shadow: 0pt 1px 0pt white; border-right: 1px solid rgba(0, 0, 0, 0.04); border-left: 1px solid rgba(255, 255, 255, 0.7); border-bottom: 2px solid rgb(218, 218, 218); }
+.pagehead > ul.tabs li:first-child a { border-left: medium none; border-bottom-left-radius: 3px; }
+.pagehead > ul.tabs li:last-child a { border-right: medium none; border-bottom-right-radius: 3px; }
+.pagehead > ul.tabs li a:hover { color: rgb(65, 131, 196); border-bottom: 2px solid rgb(207, 220, 232); background: -moz-linear-gradient(rgb(250, 251, 253), rgb(220, 230, 239)) repeat scroll 0% 0% transparent; }
+.pagehead > ul.tabs li a.selected, .pagehead > ul.tabs li a.selected:hover { color: rgb(0, 0, 0); background: -moz-linear-gradient(rgb(252, 252, 252), rgb(235, 235, 235)) repeat scroll 0% 0% transparent; border-bottom: 2px solid rgb(210, 105, 17); }
+.pagehead > ul.tabs li a .counter { position: relative; top: -1px; display: inline-block; margin: 0pt 0pt 0pt 5px; padding: 0pt 8px 1px; height: auto; font-family: "Helvetica",Arial,sans-serif; font-size: 10px; line-height: 14px; text-align: center; color: rgb(119, 119, 119); background: none repeat scroll 0% 0% rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); border-radius: 8px 8px 8px 8px; }
+html.mozilla .pagehead > ul.tabs li a .counter { padding-top: 2px; padding-bottom: 0pt; }
+.subnav-bar { margin: 10px 0pt; border-bottom: 1px solid rgb(221, 221, 221); }
+.subnav-bar ul.subnav { font-size: 14px; }
+.subnav-bar ul.subnav li { display: inline-block; vertical-align: top; cursor: pointer; }
+.subnav-bar ul.subnav li a { color: rgb(102, 102, 102); text-decoration: none; padding: 8px 12px; display: inline-block; border-left: 1px solid transparent; border-top: 1px solid transparent; border-right: 1px solid transparent; margin-bottom: -1px; }
+.subnav-bar ul.subnav li:first-child a { padding-left: 2px; }
+.repo-stats, .user-stats { display: inline-block; margin: 0pt; border: 1px solid rgb(221, 221, 221); border-radius: 3px 3px 3px 3px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.repo-stats li, .user-stats li { list-style-type: none; display: inline-block; margin: 0pt ! important; }
+ul.repo-stats li a, .user-stats li a { display: inline-block; height: 21px; padding: 0pt 5px 0pt 23px; line-height: 21px; color: rgb(102, 102, 102); border-left: 1px solid rgb(221, 221, 221); background: url('repostat.png') no-repeat scroll 0pt 0pt transparent; }
+ul.repo-stats li:first-child a, ul.user-stats li:first-child a { border-left: medium none; margin-right: -3px; }
+ul.repo-stats li a:hover, ul.user-stats li a:hover { color: rgb(255, 255, 255) ! important; background-color: rgb(65, 131, 196); text-decoration: none; }
+ul.repo-stats li:first-child a:hover, ul.user-stats li a:hover { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+ul.repo-stats li:last-child a:hover, ul.user-stats li:last-child a:hover { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+ul.repo-stats li.watchers a, ul.user-stats li.watchers a { background-position: 5px -2px; }
+ul.repo-stats li.watchers a:hover, ul.user-stats li.watchers a:hover { background-position: 5px -27px; }
+ul.repo-stats li.watchers.watching a { background-position: 5px -102px; color: rgb(51, 51, 51); }
+ul.repo-stats li.watchers.watching a:hover { background-position: 5px -127px; }
+ul.repo-stats li.forks a { background-position: 5px -52px; }
+ul.repo-stats li.forks a:hover { background-position: 5px -77px; }
+#wiki-wrapper { margin: 0pt auto 50px 0pt; overflow: visible; font-size: 10px; line-height: 1.4; }
+#wiki-wrapper #head { border-bottom: 1px solid rgb(204, 204, 204); margin: 14px 0pt 5px; padding: 5px 0pt; overflow: hidden; }
+#wiki-wrapper #head h1 { font-size: 33px; float: left; line-height: normal; margin: 0pt; padding: 2px 0pt 0pt; }
+#wiki-wrapper #head ul.wiki-actions { float: right; margin-top: 6px; display: block; list-style-type: none; overflow: hidden; padding: 0pt; }
+#wiki-wrapper #head ul.wiki-actions li { float: left; margin-left: 7px; }
+#wiki-rightbar > :first-child { margin-top: 0pt; }
+#wiki-footer #gollum-footer-content > :first-child { margin-top: 0pt; }
+#wiki-history table tr:nth-child(2n), #wiki-history table table tr.alt-row, #wiki-history tbody tr:nth-child(2n), #wiki-history tbody table tr.alt-row { background-color: rgb(243, 247, 250); }

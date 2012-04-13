@@ -1,0 +1,5 @@
+body, td { font-family: arial,sans-serif; font-size: 13px; }
+a:link, a:active { color: rgb(17, 85, 204); text-decoration: none; }
+a:hover { text-decoration: underline; cursor: pointer; }
+a:visited {  }
+img { border: 0px none; }

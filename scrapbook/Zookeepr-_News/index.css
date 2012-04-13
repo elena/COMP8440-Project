@@ -1,0 +1,24 @@
+/* ::::: http://zookeepr.org/screen.css ::::: */
+
+body { position: relative; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size: 9pt; color: rgb(102, 102, 102); margin: 0px auto; width: 900px; background: url('background.gif') repeat-y scroll center top rgb(146, 132, 123); }
+#wrapper { width: 900px; margin: 0px auto; background: url('background.gif') repeat-y scroll center top rgb(146, 132, 123); }
+#head { top: 0px; height: 120px; background: url('header.gif') no-repeat scroll center top transparent; }
+#wikihead { float: right; clear: both; padding-right: 50px; padding-top: 70px; }
+#page-title { position: absolute; top: 35px; left: 235px; width: 605px; font-size: 20pt; font-weight: bold; color: rgb(238, 238, 238); }
+#page-subtitle { position: absolute; top: 65px; left: 235px; width: 605px; font-size: 16pt; font-weight: bold; color: rgb(221, 221, 221); }
+#fork { position: absolute; top: 0pt; right: 43px; border: 0pt none; }
+#columns { width: 900px; margin: 0px auto; }
+#col-left { position: relative; float: left; width: 171px; margin: 15px 0px 0px 40px; padding-left: 10px; }
+#col-right { position: relative; float: right; width: 600px; margin: 15px 61px 0px 0px; height: 100%; }
+#sidebar a { text-decoration: none; color: rgb(221, 221, 221); padding: 2px 2px 4px; text-indent: 4px; display: block; }
+#sidebar a.active, #sidebar a:hover { color: rgb(238, 238, 238); background: url('selector.gif') no-repeat scroll right center rgb(102, 102, 102); }
+#sidebar ul { list-style: none outside none; margin: 0px; padding: 0px; }
+#sidebar li { display: list-item; margin: 0px; border-bottom: 1px solid rgb(102, 102, 102); }
+#sidebar h3 { font-size: 130%; color: rgb(255, 255, 255); margin-bottom: 5px; }
+#footer { text-align: right; color: rgb(102, 102, 102); border-top: 1px solid rgb(204, 204, 204); margin-top: 18px; padding: 10px 0px; }
+a { color: rgb(103, 153, 177); text-decoration: underline; }
+a:hover { color: rgb(131, 143, 150); text-decoration: none; }
+h1, h2, h3, h4, h5 { color: rgb(102, 102, 102); }
+h1 { font-size: 16pt; }
+h2 { font-size: 14pt; }
+h3 { font-size: 12pt; }
