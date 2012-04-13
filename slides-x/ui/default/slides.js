@@ -422,7 +422,9 @@ function fontScale() {  // causes layout problems in FireFox that get fixed if b
 	}
 }
 
+
 function fontSize(value) {
+/*
 	if (!(s5ss = document.getElementById('s5ss'))) {
 		if (!isIE) {
 			document.getElementsByTagName('head')[0].appendChild(s5ss = document.createElement('style'));
@@ -435,10 +437,11 @@ function fontSize(value) {
 	}
 	if (!isIE) {
 		while (s5ss.lastChild) s5ss.removeChild(s5ss.lastChild);
-		s5ss.appendChild(document.createTextNode('body {font-size: ' + value + ' !important;}'));
+		s5ss.appendChild(document.createTextNode('body {font-size: ' + (value+0) + ' !important;}'));
 	} else {
 		document.s5ss.addRule('body','font-size: ' + value + ' !important;');
 	}
+*/
 }
 
 function notOperaFix() {
