@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
 <!-- embedded styles -->
 <style type="text/css" media="all">
+img {top: 0; left: 0; margin: 0; padding: 0;}
 .imgcon {width: 525px; margin: 0 auto; padding: 0; text-align: center;}
 #anim {position: relative; margin-top: 0.5em;}
 #anim img {position: absolute; top: 42px; left: 24px;}
@@ -28,6 +29,10 @@ img#me01 {top: 0; left: 0;}
 img#me02 {left: 23px;}
 img#me04 {top: 44px;}
 img#me05 {top: 43px;left: 36px;}
+.leftmost, .rghtmost {position: absolute; top: 3em; left: 0;}
+.rghtmost  {width: 100%; z-index: 100; text-align: right; }
+.righttext { margin-left: 500px;}
+.photo {width: 475px;}
 </style>
 <!-- S5 JS -->
 <script src="ui/default/slides.js" type="text/javascript"></script>
@@ -40,7 +45,8 @@ img#me05 {top: 43px;left: 36px;}
 <div id="header"></div>
 <div id="footer">
 <h1>Zookeepr<span style="font-weight: normal"> :: Elena Williams (u4202433)</span></h1>
-<h2>COMP8440: Free and Open Source Software Development<span style="font-weight: normal"> :: Autumn Session (10th-14th April) 2012</span></h2>
+<h2>COMP8440: Free and Open Source Software Development<br />
+<span style="font-weight: normal">Autumn Session (10th-14th April) 2012</span></h2>
 </div>
 
 </div>
@@ -53,6 +59,86 @@ img#me05 {top: 43px;left: 36px;}
 u4202343<br />
 @elequ</h3>
 </div>
+
+
+<div class="slide">
+<h1>My Itch</h1>
+<div class="leftmost">
+<img src="img/elena_code.jpg" class="photo" />
+</div>
+
+<div class="righttext">
+<p>Hi. I'm Elena.</p>
+<p>I'm a <strong>web developer</strong>.</p>
+<p>I'm quite in to <strong>Python</strong>.</p>
+</div>
+
+<div class="rghtmost">
+<img src="img/logo_python.png" />
+</div>
+</div>
+
+<div class="slide">
+<h1>My Itch</h1>
+<div class="leftmost">
+<img src="img/elena_work.jpg" class="photo" />
+</div>
+
+<div class="righttext">
+<p>A <strong>few year ago</strong> I worked <br />
+on conferences.</p>
+<p>All in PHP: <br />
+Whet my apetite, but<br />
+left me feeling like I <br />
+<strong>could do better</strong>.</p>
+</div>
+
+<div class="rghtmost">
+<img src="img/web_icem0.jpg" class="photo" />
+</div>
+</div>
+
+
+
+<div class="slide">
+<h1>My Itch</h1>
+<div class="leftmost">
+<img src="img/elena_kroto.jpg" class="photo" />
+</div>
+
+<div class="righttext">
+<p>All-in-all:<br />
+Really <b>incredible experience</b>.</p>
+<p>Mean time I've been <b>honing my python</b>.</p>
+<p>Had thought a lot about conferences, <br />
+felt I had <b>more to do</b>.</p>
+<p>Decided no matter what <b>2012</b> is a <br />
+<b>conference year</b> for me.</p>
+</div>
+
+</div>
+
+
+<div class="slide">
+<h1>Their Itch</h1>
+
+<div class="leftmost">
+<img src="img/elena_kroto.jpg" class="photo" />
+</div>
+
+<div class="righttext">
+<p>All-in-all:<br />
+Really <b>incredible experience</b>.</p>
+<p>Mean time I've been <b>honing my python</b>.</p>
+<p>Had thought a lot about conferences, <br />
+felt I had <b>more to do</b>.</p>
+<p>Decided no matter what <b>2012</b> is a <br />
+<b>conference year</b> for me.</p>
+</div>
+
+</div>
+
+
 
 
 <div class="slide">
@@ -147,19 +233,19 @@ Works on an annual basis for each LCA
 <div class="slide">
 <h1>How Can I Help: How To Contribute Page</h1>
 Better than most, still not perfect.
-<img src="img/bugs_3.png" alt="" id="bugs3" class="incremental" />
+<img src="img/bugs_3.png" alt="" id="bugs3" />
 </div>
 
 <div class="slide">
 <h1>How Can I Help: Issue Tracker</h1>
 Have discussed with team already what here is actual priority, for me to look at.
-<img src="img/bugs_1.png" alt="" id="bugs1" class="incremental" />
+<img src="img/bugs_1.png" alt="" id="bugs1" />
 </div>
 
 <div class="slide">
 <h1>How Can I Help? Then There Are Pages Like This</h1>
 Don't want to make an example of it, but excellent example of FOSS self-deprecation.
-<img src="img/bugs_2.png" alt="" id="bugs2" class="incremental" />
+<img src="img/bugs_2.png" alt="" id="bugs2" />
 </div>
 
 <div class="slide">
@@ -321,6 +407,16 @@ Don't want to make an example of it, but excellent example of FOSS self-deprecat
 ~twitter
 ~facbook
 
+<div class="slide">
+
+<p>Slides:<br />
+<strong>S5: A Simple Standards-Based Slide Show System</strong>
+<a href="http://meyerweb.com/eric/tools/s5/credits.html">http://meyerweb.com/eric/tools/s5/</a>
+</p>
+<p>Licensed under the Creative Commons Attribution ShareAlike license.</p>
+<p><img src="http://wiki.creativecommons.org/images/f/f5/By-sa_plain72.png" align="middle" /></p>
+</div>
+
 
 <div class="slide">
 <h1>Special Thanks!</h1>
@@ -340,10 +436,10 @@ Don't want to make an example of it, but excellent example of FOSS self-deprecat
         <li>Chris Neugebaur and Joshua Hesketh</li>
       </ul>
     </li>
+    <li>Brad Hards</li>
     <li><strong>Andrew Tridgell</strong></li>
-Licensed under the Creative Commons Attribution ShareAlike license.
   </ul>
-  </div>
+</div>
 
 
 
